@@ -1,7 +1,7 @@
 from collections import Counter
 
 allowed_chars= "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ αβγδεζηθικλμνξοπρστυφχψωΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ"
-f = open("two_cities_ascii.txt", "r",encoding='utf-8')
+f = open("two_cities_ascii.txt", "r",encoding='ascii')
 data= f.read()
 filtered_txt= ""
 for c in data:
