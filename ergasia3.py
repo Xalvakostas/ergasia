@@ -9,7 +9,7 @@ for c in data:
         filtered_txt= filtered_txt +c
 f.close()
 
-words= filtered_txt.split(" ")
+words= filtered_txt.split()
 
 for i in range(len(words)):
     if i < len(words):
