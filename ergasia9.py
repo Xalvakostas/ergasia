@@ -25,8 +25,6 @@ for word in words :
     binary_int = int.from_bytes(byte_array,"big")
     Binary = bin(binary_int)
     print(Binary)
-    if word == "listened":
-        Binary=str(00000000000)
     if j ==0 :
         max_word_a =Binary
         max_word_b =Binary
